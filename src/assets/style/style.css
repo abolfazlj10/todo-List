@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@1,500&family=Quicksand&family=Roboto+Condensed&display=swap');
+body {
+    background: linear-gradient(210deg, #9adbbe, #4fc08d);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    color: #4fc08d ;
+    position: relative;
+    font-family: 'Asap Condensed', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+button{
+    cursor: pointer;
+}
+i{
+    cursor: pointer;
+}
+input{
+    outline: 0;
+    border: 0;
+}
+textarea{
+    border: 0;
+    outline: 0;
+}
+.ManegmentTasks{
+    background-color: #E9ECEF;
+    width: 431px;
+    height: 472px;
+    border-radius: 1em;
+    display: grid;
+    grid-template-rows: 1fr 1fr 8fr 1fr;
+    box-shadow: 0 0 5px rgb(25 25 25 / 25%);
+    position: relative;
+}
+.ManegmentTasksDark{
+    background-color: #2D4654;
+    width: 431px;
+    height: 472px;
+    border-radius: 1em;
+    display: grid;
+    grid-template-rows: 1fr 1fr 7fr 1fr;
+    box-shadow: 0 0 5px rgb(25 25 25 / 25%);
+    position: relative;
+}
+.BlurMangment{
+    filter: blur(3px);
+}
+
+#AddTodo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+#Tasks{
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+#Date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnAddTodos{
+    color: #4fc08d ;
+    background: none;
+    outline: none;
+    border: #4fc08d 0.5px solid;
+    border-radius: 10%;
+    font-size: 14px;
+    margin: 0 0.5em;
+    border-radius: 2em;
+    padding: 0.75em 1.5em;
+    transition: 250ms ease-out;
+    font-family: 'Asap Condensed', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.btnAddTodosDark{
+    color: #4fc08d ;
+    background: none;
+    outline: none;
+    border: #4fc08d 0.5px solid;
+    border-radius: 10%;
+    font-size: 14px;
+    margin: 0 0.5em;
+    border-radius: 2em;
+    padding: 0.75em 1.5em;
+    transition: 250ms ease-out;
+    font-family: 'Asap Condensed', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.btnAddTodos:hover{
+    background-color: #4fc08d;
+    color: #fff;
+    transition: 250ms ease-out;
+}
+.btnAddTodosDark:hover{
+    background-color: #4fc08d;
+    color: #2D4654;
+    transition: 250ms ease-out;
+}
+
+.ItemTask{
+    display: grid;
+    grid-template-columns: 1fr 6fr 2fr;
+    width: 100%;
+    height: 66px;
+    align-items: center;
+    cursor: pointer;
+    transition: 250ms ease-out;
+}
+.ItemTaskِDark{
+    display: grid;
+    grid-template-columns: 1fr 6fr 2fr;
+    width: 100%;
+    height: 66px;
+    align-items: center;
+    cursor: pointer;
+    transition: 250ms ease-out;
+}
+.ItemTask:hover{
+    background-color: #e3e5e8;
+    transition: 250ms ease-out;
+    
+}
+.ItemTaskِDark:hover{
+    background-color: #2e4c5e ;
+    transition: 250ms ease-out;
+    
+}
+.titleAndDescription{
+    display: flex;
+    flex-direction:  column;
+    justify-content: center;
+}
+.title{
+    font-size: 20px;
+}
+.circleCheck{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+}
+
+.circleCheck i {
+    cursor: pointer;
+}
+
+.Icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+}
+.Icons i {
+    margin: 6.5px;
+    display: none;
+}
+
+.ItemTask:hover .Icons i{
+    display: inline-block;
+}
+.ItemTaskِDark:hover .Icons i{
+    display: inline-block;
+}
+
+.showModalAddNew{
+    width: 482px;
+    height: 400px;
+    border-radius: 10px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    box-shadow: #00000073 1px 4px 20px 1px;
+    display: grid;
+    grid-template-rows: 1fr 11fr 1fr 1fr;
+    padding-left: 10px;
+}
+.showModalAddNewDark{
+    width: 482px;
+    height: 400px;
+    border-radius: 10px;
+    background-color: #2D4654;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    box-shadow: #00000073 1px 4px 20px 1px;
+    display: grid;
+    grid-template-rows: 1fr 11fr 1fr 1fr 1fr;
+    padding: 10px 0 10px 10px;
+}
+.showModalAddNewDark input  {
+    background-color: #2D4654;
+    color: #f1f1f1;
+}
+.showModalAddNewDark textarea  {
+    background-color: #2D4654;
+    color: #f1f1f1;
+}
+.showModalAddNewDark input::placeholder  {
+    color: #4fc08d;
+}
+.showModalAddNewDark textarea::placeholder  {
+    color: #4fc08d;
+}
+.showModalAddNew input::placeholder{
+    color: #4fc08d;
+}
+.showModalAddNew textarea::placeholder{
+    color: #4fc08d;
+}
+.navNote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navNote i {
+    margin: 0 10px;
+    font-size: 20px;
+}
+.SortAndInput{
+    display: grid;
+    grid-template-columns: 10fr 1fr;
+}
+.TitleNote{
+    width: 100%;
+    margin: 10px 0;
+    font-size: 28px;
+    transition: .3s color ease-in-out;
+    border: 0.5px solid #00000040;
+    border-radius: 5px;
+    padding: 5px;
+}
+.DescriptionNote{
+    width: 100%;
+    height: 200px;
+    color: #000;
+    font-size: 20px;
+    overflow-y: scroll;
+    resize: none;
+    border: 0.5px solid #00000040;
+    border-radius: 5px;
+    padding: 5px;
+}
+.Sort{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding-left: 8px;
+}
+.Sort i {
+    display: block ;
+}
+.DateNote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.dangerColor::placeholder{
+    color: red;
+    transition: .3s all ease-in-out;
+}
+
+.VacantTasks{
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.NavBarList{
+    border-bottom: #4fc08d .1px solid;
+    box-shadow: rgb(50 50 93 / 25%) 0px -1px 12px -2px, rgb(0 0 0 / 30%) -1px 0px 7px -3px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 1em;
+    border-top-right-radius: inherit;
+    border-top-left-radius: inherit;
+}
+
+.btnNav {
+    margin: 10px 2.9000000000000004px;
+    font-size: 12px;
+    padding: 0.5em 1em;
+    font-family: 'Asap Condensed', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.focusBtnNav{
+    background-color: #4fc08d;
+    color: #fff;
+}
+.focusBtnNavDark{
+    background-color: #4fc08d;
+    color: #2D4654;
+}
+
+.selectColor{
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    margin-top: 11px;
+}
+
+.BoxColor {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.IconsSelectColor{
+    font-size: 20px;
+    transition: all .1s ease-in-out;
+    padding: 1px;
+}
+.tagTask{
+    display: grid;
+    grid-template-columns: 4fr 5fr;
+    margin-top: 4px;
+}
+.SelectTagInput{
+    background-color: #fff;
+    color: #4fc08d;
+    border: 0.5px solid #3d3c3ca9;
+    outline: 0;
+    margin-left: 2px;
+}
+.SelectTagInputDark{
+    background-color: #2D4654;
+    color: #4fc08d;
+    border: 0.5px solid #b0a7a7a9;
+    outline: 0;
+    margin-left: 2px;
+}
+.InputAddTag {
+    color: #4fc08d;
+    border: 0.5px solid #3d3c3ca9;
+    width: 50%;
+}
+.InputAddTagDark {
+    color: #4fc08d;
+    border: 0.5px solid #b0a7a7a9;
+    width: 50%;
+}
+.AddTag input::placeholder {
+    font-size: 10px;
+}
+#SectionSelectPage1 , #SectionSelectPage2 , #SectionSelectPage3 , #SectionSelectPage4{
+    background-color: #2D4654;
+    color: #4fc08d;
+    border: 0.5px solid #b0a7a7a9;
+    outline: 0;
+}
+#SectionSelectPage1Light , #SectionSelectPage2Light , #SectionSelectPage3Light , #SectionSelectPage4Light {
+    background-color: #f1f1f1;
+    color: #4fc08d;
+    border: 0.5px solid #3d3c3ca9;
+    outline: 0;
+}

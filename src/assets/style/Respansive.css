@@ -1,0 +1,389 @@
+@media screen and (max-width:459px) {
+    .ManegmentTasksDark{
+        width: 378px;
+    }
+    .ManegmentTasks {
+        width: 378px;
+    }
+    .Icons i {
+        display: inline-block;
+    }
+    .btnNav{
+        margin: 8px 2.9000000000000004px;
+        padding: 7px 11px;
+    }
+    #AddTodoh3{
+        font-size: 14px;
+    }
+    #AddTodo{
+        padding: 0 5px;
+    }
+}
+@media screen and (max-width:400px) {
+    .ManegmentTasksDark{
+        width: 325px;
+    }
+    .ManegmentTasks {
+        width: 325px;
+    }
+    .VacantTasks{
+        font-size: 20px;
+    }
+    .btnNav{
+        margin: 9px 2.9000000000000004px;
+        padding: 7px 7.2px;
+    }
+    #AddTodo{
+        padding: 0 2px;
+    }
+    .btnAndSelectTag button {
+        padding: 0.65em 0.6em;
+        font-size: 13px;
+    }
+    #AddTodo h3{
+        padding-left: 9px;
+        font-size: 15px;
+    }
+    .ItemTaskِDark , .ItemTask{
+        height: 61px;
+    }
+    .circleCheck {
+        font-size: 16px;
+    }
+    .title{
+        font-size: 19px;
+    }
+    .Icons{
+        font-size: 16px;
+    }
+    .VacantTasks{
+        margin-top: 130px;
+    }
+
+
+}
+@media screen and (max-width:345px) {
+    .ManegmentTasksDark{
+        width: 300px;
+        height: 427px;
+    }
+    .ManegmentTasks {
+        width: 300px;
+        height: 427px;
+    }
+
+    .title{
+        font-size: 17px;
+    }
+    .circleCheck {
+        font-size: 15px;
+    }
+    .Icons{
+        font-size: 15px;
+    }
+    #Date{
+        font-size: 15px;
+    }
+    .btnNav{
+        font-size: 10px;
+        margin: 9px 1.9000000000000004px;
+        padding: 6.7px 6.9px;
+    }
+    #Date{
+        font-size: 12px;
+    }
+    #AddTodo h3 {
+        padding-left: 9px;
+        font-size: 13px;
+    }
+    .VacantTasks{
+        margin-top: 123px;
+    }
+    
+}
+@media screen and (max-width:315px) {
+    .ManegmentTasksDark{
+        width: 280px;
+    }
+    .ManegmentTasks {
+        width: 280px;
+    }
+    .btnAddTodos{
+        padding: 0.75em 1em;
+    }
+    .btnNav {
+        font-size: 11px;
+        margin: 9px -2.0999999999999996px;
+        padding: 6.5px 5.5px;
+    }
+    #AddTodo h3 {
+        font-size: 12px;
+    }
+    #SectionSelectPage1 , #SectionSelectPage2 , #SectionSelectPage3 , #SectionSelectPage4 , #SectionSelectPage1Light , #SectionSelectPage2Light , #SectionSelectPage3Light , #SectionSelectPage4Light {
+        width: 60px;
+        font-size: 12px;
+    }
+    .circleCheck {
+        font-size: 14px;
+    }
+    .Icons {
+        font-size: 14px;
+    }
+        
+}
+ @media screen and (max-width:300px) {
+    .ManegmentTasksDark{
+        width: 250px;
+        height: 395px;
+    }
+    .ManegmentTasks {
+        width: 250px;
+        height: 395px;
+    }
+    .btnNav {
+        font-size: 10px;
+        margin: 9px 0.9000000000000004px;
+        padding: 6px 5px;
+    }
+    .NavBarList{
+        margin: 0 1px;
+    }
+    #AddTodo h3 {
+        font-size: 10px;
+    }
+    #SectionSelectPage1 , #SectionSelectPage2 , #SectionSelectPage3 , #SectionSelectPage4 , #SectionSelectPage1Light , #SectionSelectPage2Light , #SectionSelectPage3Light , #SectionSelectPage4Light {
+        width: 53px;
+        font-size: 11px;
+    }
+    .btnAndSelectTag button {
+        padding: 0.6em 0.5em;
+        font-size: 13px;
+    }
+    .circleCheck {
+        font-size: 13px;
+    }
+    .title {
+        font-size: 16px;
+    }
+    .Icons {
+        font-size: 13px;
+    }
+    .ItemTaskِDark, .ItemTask {
+        height: 53px;
+    }
+    .VacantTasks{
+        margin-top: 112px;
+    }
+} 
+@media screen and (max-width:561px) {
+    .showModalAddNewDark{
+        width: 450px;
+    }
+    .showModalAddNew{
+        width: 450px;
+    }
+    .SelectTag span {
+        font-size: 14px;
+    }
+    .AddTag span {
+        font-size: 14px;
+    }
+    .selectColor span {
+        font-size: 14px;
+    }
+    .SelectTagInputDark , .SelectTagInput{
+        width: 54px;
+    }
+    .tagTask input::placeholder  {
+        font-size: 9px;
+    }
+    .SortAndInput{
+        grid-template-columns: 10fr 1.2fr;
+    }
+}
+@media screen and (max-width:493px) {
+    .showModalAddNewDark{
+        width: 400px;
+    }
+    .showModalAddNew{
+        width: 400px;
+    }
+}
+@media screen and (max-width:439px) {
+    .showModalAddNewDark{
+        width: 360px;
+    }
+    .showModalAddNew{
+        width: 360px;
+    }
+    .SortAndInput {
+        grid-template-columns: 10fr 1.5fr;
+    }
+    .SortAndInput input::placeholder{
+        font-size: 20px;
+    }
+    .SortAndInput textarea::placeholder{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:400px) {
+    .showModalAddNewDark{
+        width: 320px;
+    }
+    .showModalAddNew{
+        width: 320px;
+    }
+    .TitleNote{
+        width: 100%;
+        margin: 10px 0;
+    }
+    .SelectTag span {
+        font-size: 11px;
+    }
+    .AddTag span {
+        font-size: 11px;
+    }
+    .selectColor span {
+        font-size: 11px;
+    }
+    .SortAndInput {
+        grid-template-columns: 10fr 1.8fr;
+    }
+    .Sort{
+        font-size: 26px;
+    }
+    .IconsSelectColor {
+        font-size: 17px;
+    }
+    .tagTask input::placeholder  {
+        font-size: 7px;
+    }
+    .DateNote span{
+        font-size: 15px;
+    }
+
+} 
+@media screen and (max-width:365px) {
+    .showModalAddNewDark{
+        width: 312px;
+    }
+    .showModalAddNew{
+        width: 312px;
+    }
+}
+@media screen and (max-width:345px) {
+    .showModalAddNewDark{
+        width: 290px;
+        height: 340px;
+    }
+    .showModalAddNew{
+        width: 290px;
+        height: 340px;
+    }
+    .DescriptionNote{
+        height: 152px;
+    }
+    .SortAndInput input::placeholder{
+        font-size: 15px;
+    }
+    .SortAndInput textarea::placeholder{
+        font-size: 15px;
+    }
+    .navNote{
+        margin: 0 10px;
+        font-size: 17px;
+    }
+    .SelectTag span {
+        font-size: 10px;
+    }
+    .AddTag span {
+        font-size: 10px;
+    }
+    .selectColor span {
+        font-size: 10px;
+    }
+    .SelectTagInputDark , .SelectTagInput{
+        width: 55px;
+        font-size: 10px;
+    }
+    .InputAddTagDark{
+        font-size: 10px;
+    }
+    .DateNote span{
+        font-size: 13px;
+    }
+
+    
+}
+@media screen and (max-width:333px) {
+    .showModalAddNewDark{
+        width: 260px;
+    }
+    .showModalAddNew{
+        width: 260px;
+    }
+    .navNote i {
+        font-size: 17px;
+    }
+    .SelectTagInputDark , .SelectTagInput{
+        width: 39px;
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:289px) {
+    .showModalAddNewDark{
+        width: 230px;
+    }
+    .showModalAddNew{
+        width: 230px;
+    }
+    .Sort {
+        font-size: 22px;
+    }
+    .SortAndInput {
+        grid-template-columns: 10fr 2fr;
+    }
+    .SelectTag span {
+        font-size: 9px;
+    }
+    .AddTag span {
+        font-size: 9px;
+    }
+    .selectColor span {
+        font-size: 9px;
+    }
+    .IconsSelectColor {
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+    }
+    .DateNote span {
+        font-size: 11px;
+    }
+    
+}
+@media screen and (min-height:533px) and (min-width:460px) {
+    body {
+        align-items: center;
+    }
+}
+@media screen and (min-height:490px) and (min-width:400px) {
+    body {
+        align-items: center;
+    }
+}
+@media screen and (min-height:450px) and (min-width:315px) {
+    body {
+        align-items: center;
+    }
+}
+@media screen and (min-height:450px) and (min-width:301px) {
+    body {
+        align-items: center;
+    }
+}
+@media screen and (min-height:417px) and (max-width:300px) {
+    body {
+        align-items: center;
+    }
+}
